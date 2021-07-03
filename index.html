@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="div">
+        <h1 id="heading" style="text-align: center;">Register</h1>
+        <form id="form" style="display: flex; flex-direction: column;">
+            <div class="names" style="display: flex; flex-direction: row; justify-content: center; margin-bottom: 10px;margin-top: 20px;">
+                    <input id="fname" type="text" placeholder="FirstName" style="display: flex; margin-right: 10px;padding-left: 5px; padding-right: 5px;padding-top: 5px; padding-bottom: 5px;">
+                    <input id="lname" type="text" placeholder="LastName" style="display: flex;padding-left: 5px; padding-right: 5px;padding-top: 5px; padding-bottom: 5px;">
+            </div>
+            <div class="names1" style="display: flex; flex-direction: row; justify-content: center; margin-bottom: 10px;margin-top: 0px;">
+                <span id="errorfname" style="display: flex; margin-right: 10px;padding-left: 5px; padding-right: 5px;padding-top: 0px; padding-bottom: 0px; font-size: 12px;"></span>
+                <span id="errorlname" style="display: flex;padding-left: 5px; padding-right: 5px;padding-top: 0px; padding-bottom: 0px; font-size: 12px;"></span>
+             </div>
+            <input id="username" type="text" placeholder="Username" style="margin-bottom: 10px; padding-left: 5px; padding-right: 5px;padding-top: 5px; padding-bottom: 5px;">
+            <span id="usercheck" style="display: flex; margin-right: 10px;padding-left: 5px; padding-right: 5px;padding-top: 0px; padding-bottom: 5px; font-size: 12px;"></span>
+
+            <input id="password" type="password" placeholder="Password" style="margin-bottom: 10px;padding-left: 5px; padding-right: 5px;padding-top: 5px; padding-bottom: 5px;">
+            <span id="passcheck" style="display: flex; margin-right: 10px;padding-left: 5px; padding-right: 5px;padding-top: 0px; padding-bottom: 5px; font-size: 12px;"></span>
+
+            <input id="email" type="email" placeholder="Email" style="margin-bottom: 10px;padding-left: 5px; padding-right: 5px;padding-top: 5px; padding-bottom: 5px;">
+            <span id="emailcheck" style="display: flex; margin-right: 10px;padding-left: 5px; padding-right: 5px;padding-top: 0px; padding-bottom: 5px; font-size: 12px;"></span>
+
+            <input id="conpass" type="password" placeholder="confirm password" style="margin-bottom: 10px;padding-left: 5px; padding-right: 5px;padding-top: 5px; padding-bottom: 5px;">
+            <span id="conpasscheck" style="display: flex; margin-right: 10px;padding-left: 5px; padding-right: 5px;padding-top: 0px; padding-bottom: 5px; font-size: 12px;"></span>
+            <button id="btn"  type="submit"  style="border-radius: 5px; width: 330px; background-color: rgb(12, 95, 95); padding-left: 135px; color: wheat; padding-right: 5px;padding-top: 5px; padding-bottom: 5px;">Register</button>
+        </form>
+    </div>
+    <script src="./loginpage.js"></script>
+</body>
+</html>
